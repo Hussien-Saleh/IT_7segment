@@ -20,11 +20,6 @@ ISR(INT2_vect)
 	   PORTC++;		
 }
 
-/* External INT2 enable and configuration function */
-void INT2_Init(void){
-	  
-}
-
 int main(void)
 {
 	DDRC = 0xFF; 			.
